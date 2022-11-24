@@ -1,0 +1,28 @@
+{
+  "name": "babel-compiler-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuqfang/babel-compiler-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiuqfang/babel-compiler-test/issues"
+  },
+  "homepage": "https://github.com/qiuqfang/babel-compiler-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "browserslist": "^4.21.4"
+  }
+}
